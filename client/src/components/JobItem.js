@@ -1,11 +1,10 @@
 import moment from "moment";
 import React from "react";
 import classNames from "classnames";
+import { Link } from "react-router-dom";
 
 var now = moment();
 now = now.month() + 1;
-
-console.log(now);
 
 export default function JobItem({
   job: { title, company, type, location, created_at, id }
@@ -32,7 +31,10 @@ export default function JobItem({
           </h5>
         </div>
         <div className="col-md-4">
-          <button className="btn btn-secondary"> Job Details</button>
+          <Link to={`/job/${id}`} className="btn btn-secondary">
+            {" "}
+            Job Details
+          </Link>
         </div>
       </div>
     </div>
