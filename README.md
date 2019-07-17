@@ -5,7 +5,7 @@ Currently main branch : NOT MASTER, frontending
 This is not a serious project or something. What it all does is only pulling actual data from GitHub API. I used that because it was full-type open. Twitter and Instagram rejected me. Currently it only pulling data from location of new-york. You can actually change it by yourself, it's just default value. 
 
 /-----------------------------------------------------------------------------------------------------------------------
---------------------------------------------
+-
 
 # How to Run / Use
   From console: "npm run client" after download
