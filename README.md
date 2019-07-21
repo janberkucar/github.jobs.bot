@@ -30,20 +30,22 @@ $ npm start --prefix client
 ```sh
   example query: 
   {
-  job(id: "5f549c68-8618-44d6-9201-680665da5f13"){
-    location
-    company
-    created_at
-    id
+  job(id: "5f549c68-8618-44d6-9201-680665da5f13")
+    {
+      location
+      company
+      created_at
+      id
+    }
   }
-}
-    or 
-{
-jobs{
-  id
-  title
- }
-}
+    or  
+  {
+  jobs
+    {
+    id
+    title
+    }
+  }
 ```
 The values: title
       company
