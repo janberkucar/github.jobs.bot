@@ -42,8 +42,8 @@ $ npm start --prefix client
   {
   jobs
     {
-    id
-    title
+      id
+      title
     }
   }
 ```
