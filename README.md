@@ -12,9 +12,21 @@ This is not a serious project or something. What it all does is only pulling act
 # How to Run / Use
   From console: "npm run client" after download
   http://localhost:3000 and http://localhost:4000 will start-up.
+  
+```sh
+localhost:3000 and localhost:4000
+```
   4000 is for backend and query'ing. You can go http://localhost:4000/graphql
   
   If getting error that jobs are undefined you can still run "npm run dev" "npm start --prefix client"
+  
+  
+```sh
+$ npm run client
+$ npm run dev
+$ npm start --prefix client
+```
+  
   
   example query: 
   {
@@ -49,4 +61,12 @@ The values: title
   Deploying it.
   Data Clustering.
   Time implementation (if the job was offered 4 months ago it's probably hard to get so the button becomes red)
+  
+License
+----
+
+MIT
+
+
+**Free Software, Hell Yeah!**
   
