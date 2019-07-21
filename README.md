@@ -27,7 +27,7 @@ $ npm run dev
 $ npm start --prefix client
 ```
   
-  
+```sh
   example query: 
   {
   job(id: "5f549c68-8618-44d6-9201-680665da5f13"){
@@ -37,16 +37,14 @@ $ npm start --prefix client
     id
   }
 }
-
-or -----------------------------------------------------------------------------------------------------------------------
-
+    or 
 {
 jobs{
   id
   title
  }
 }
-
+```
 The values: title
       company
       type
