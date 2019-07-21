@@ -46,7 +46,7 @@ const RootQuery = new GraphQLObjectType({
       resolve(parent, args) {
         // Actually where we get data. Using AXIOS to get third-party-data
         return axios
-          .get("https://jobs.github.com/positions.json?location=new+york")
+          .get("https://jobs.github.com/positions.json?location=san+francisco")
           .then(res => res.data);
       }
     },
