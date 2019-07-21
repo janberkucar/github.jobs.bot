@@ -4,12 +4,17 @@ Currently main branch : NOT MASTER, frontending
 
 This is not a serious project or something. What it all does is only pulling actual data from GitHub API. I used that because it was full-type open. Twitter and Instagram rejected me. Currently it only pulling data from location of new-york. You can actually change it by yourself, it's just default value. 
 
+  The code that you can change to see different locations are stored in ->
+  schema.js line 49.
+
 /-----------------------------------------------------------------------------------------------------------------------
 
 # How to Run / Use
   From console: "npm run client" after download
   http://localhost:3000 and http://localhost:4000 will start-up.
   4000 is for backend and query'ing. You can go http://localhost:4000/graphql
+  
+  If getting error that jobs are undefined you can still run "npm run dev" "npm start --prefix client"
   
   example query: 
   {
